@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Мой любимый фильм</title>
+  <style>
+/* Основной стиль */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Заголовок */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Списки */
+ul, ol {
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+/* Изображение */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+/* Таблица */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Меню */
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    transform: skewX(-20deg);
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Трансформация элементов */
+.transformed {
+    transition: all 0.5s ease-in-out;
+}
+
+.transformed:hover {
+    transform: scale(1.1) rotate(15deg);
+}
+</style>
+</head>
+<body>
+
+<h1>Мой любимый фильм</h1>
+
+<ul>
+  <li>Актерский состав:</li>
+  <li>Жанр:</li>
+  <li>Год выпуска:</li>
+</ul>
+
+<ol>
+  <li>Описание сюжета:</li>
+  <li>Сценарий:</li>
+  <li>Режиссер:</li>
+</ol>
+
+<img src="path_to_your_image.jpg" alt="Изображение фильма">
+
+<table border="1">
+  <tr>
+    <th>Название</th>
+    <th>Описание</th>
+  </tr>
+  <tr>
+    <td>Фильм 1</td>
+    <td>Описание Фильма 1</td>
+  </tr>
+  <tr>
+    <td>Фильм 2</td>
+    <td>Описание Фильма 2</td>
+  </tr>
+</table>
+
+</body>
+</html>
